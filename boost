@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>Bootstrap demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="booststyle.css">
+  </head>
+
+<body>
+    <div class="container d-flex align-items-center h-100">
+    	<div class="row">
+    		<header class="text-center col-12">
+             <h1><strong>One of my biggest events of the year</strong></h1>
+            </header>
+            <div class="buffer col-12"></div>
+            <section class="text-center col-12">
+            	<hr class="divider m-auto" />
+                <a href="https://mailchi.mp/4e186ec43ebc/start01">
+                <button class="btn btn-primary btn-xl mt-2">More</button>
+                </a>
+            
+                <section>
+            </section>
+        </div>
+            
+        
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
+body,
+html{
+	width: 100%;
+	height: 100%;
+	font-family: Comic Sans MS, sans-serif;
+    background: url(earth.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color: #FF5733;
+}
+
+.divider{
+	border-color: red;
+	border-width: 3px;
+	width: 150px;
+}
+
+.buffer{
+	height: 50px;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+background-color: red;
+border-color: red;
+}
+
+.btn-primary:hover{
+	background-color: red;
+	border-color: red;
+	border-width: 4px;
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+}

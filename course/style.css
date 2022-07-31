@@ -1,0 +1,74 @@
+/*Selector {
+	Property: value;
+}*/
+
+body{
+	background-image: url(freya.jpg);
+	background-size: cover;
+}
+li{
+	list-style: none;
+	color: darkred;
+}
+h1,li {
+	color: blue;
+	text-align: center;
+	border: 5px solid blueviolet;
+}
+
+p {
+	color: violet;
+}
+
+em{
+	color: red;
+}
+
+p1{
+	color: blueviolet;
+}
+
+p2{
+	color:hotpink;
+}
+
+p3{
+	color: yellowgreen;
+}
+
+p4{
+	color:green ;
+}
+
+p5{
+	color: darkgray;
+}
+
+p6{
+	color: ivory;
+}
+
+p7{
+	color: coral;
+}
+
+p8{
+	color:gold ;
+}
+
+.first {
+	border: none;
+color: red;
+}
+.second {
+	font-size: 25px;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, 0.3);
+}
+
+.names:hover{
+	color: red;
+	cursor: pointer;
+}
